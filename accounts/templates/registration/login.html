@@ -1,0 +1,29 @@
+{% extends "base_generic.html" %}
+{% load bootstrap4 %}
+{% block content %}
+
+  {% if form.errors %}
+    <p>
+      Votre nom d'utilisateur et votre mot de passe ne correspondent pas. Veuillez réessayer.</p>
+  {% endif %}
+
+  {% if next %}
+    {% if user.is_authenticated %}
+      <p>Ynotre compte n'a pas accès à cette page. Procéder,
+        veuillez vous connecter avec un compte qui y a accès.</p>
+    {% else %}
+      <p>Veuillez vous connecter pour voir cette page.</p>
+    {% endif %}
+  {% endif %}
+
+  <form method="post" action="{% url 'login' %}">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <input type="submit" value="login" class="boxed-btn3 w-100"/>
+    <input type="hidden" name="next" value="{{ next }}" />
+  </form>
+
+  {# Assumes you setup the password_reset view in your URLconf #}
+  <p><a href="{% url 'password_reset' %}">Mot de passe oublier?</a></p>
+
+{% endblock %}

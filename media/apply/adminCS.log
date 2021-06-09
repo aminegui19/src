@@ -1,0 +1,198 @@
+------------------------------------------------------------------------
+Name      : adminCS
+Version   : 1.11.24.0
+Code Base : file:///C:/WINDOWS/assembly/GAC_MSIL/adminCS/1.11.24.0__ddb7c2ab70c6a687/adminCS.dll
+------------------------------------------------------------------------
+Name      : adminCS
+Version   : 1.11.24.0
+Code Base : file:///C:/WINDOWS/assembly/GAC_MSIL/adminCS/1.11.24.0__ddb7c2ab70c6a687/adminCS.dll
+------------------------------------------------------------------------
+[03/11/2019 10:25:31:701]CadminCentralServices Creation
+[03/11/2019 10:25:32:029]Building CadminCSMapper
+[03/11/2019 10:25:32:029]    (adminCS, Version=1.11.24.0, Culture=neutral, PublicKeyToken=ddb7c2ab70c6a687)
+[03/11/2019 10:25:32:031]    (file:///C:/WINDOWS/assembly/GAC_MSIL/adminCS/1.11.24.0__ddb7c2ab70c6a687/adminCS.dll)
+[03/11/2019 10:25:32:033]    (Framework .NET v4.0.30319.42000)
+[03/11/2019 10:25:35:362]Reading config file
+[03/11/2019 10:25:35:552]Failed to read config file. Default settings will be used
+[03/11/2019 10:25:35:555]-->Use Default Proxy : False
+[03/11/2019 10:25:35:557]-->ByPass Local Addr : False
+[03/11/2019 10:25:35:560]-->Customized Proxy  : False
+[03/11/2019 10:25:35:562]-->Proxy Address     : 127.0.0.1
+[03/11/2019 10:25:35:565]-->Proxy Port        : 3128
+[03/11/2019 10:25:35:603]SetConnectionParameters 10.159.97.100 443 0
+[03/11/2019 10:25:35:608]LoginAdmin installer
+[03/11/2019 10:25:35:621]Trying primary URL
+[03/11/2019 10:25:35:623]Using URL: https://10.159.97.100:443/services/xmlsrv/services/
+[03/11/2019 10:25:35:626]FakeGetOXOTime
+[03/11/2019 10:25:36:554]Login OK
+[03/11/2019 10:25:36:556]Session ID : HUc3teBCZneqt3eMPv
+[03/11/2019 10:25:36:558]GetSecuritySettings
+[03/11/2019 10:25:36:687]Security settings retrieved successfully
+[03/11/2019 10:25:36:689]------------- Recieved security settings ---------
+[03/11/2019 10:25:36:691]SMTPUserName : 
+[03/11/2019 10:25:36:692]SMTPPassword : 
+[03/11/2019 10:25:36:694]AdminEmailID : 
+[03/11/2019 10:25:36:695]SecuritySetting1 : 
+[03/11/2019 10:25:36:696]SecuritySetting2 : 
+[03/11/2019 10:25:36:698]SecuritySetting3 : 0
+[03/11/2019 10:25:36:699]SecuritySetting4 : 0
+[03/11/2019 10:25:36:701]------------------------------------------------
+[03/11/2019 10:25:36:703]ConvertOxoSecurity_SecurityData 
+[03/11/2019 10:25:36:706]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:36:707]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:36:708]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:36:710]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:36:711]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:36:713]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:36:714]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:36:726]ReadSecuritySettingsString SMTP_UserName
+[03/11/2019 10:25:36:728]getPropertyAvailabilityByName SMTP_UserName
+[03/11/2019 10:25:36:730]Value =  
+[03/11/2019 10:25:36:731]Available = 2
+[03/11/2019 10:25:36:732]ReadSecuritySettingsString SMTP_Password
+[03/11/2019 10:25:36:734]getPropertyAvailabilityByName SMTP_Password
+[03/11/2019 10:25:36:735]Value =  
+[03/11/2019 10:25:36:737]Available = 2
+[03/11/2019 10:25:36:738]ReadSecuritySettingsString Admin_EmailID
+[03/11/2019 10:25:36:740]getPropertyAvailabilityByName Admin_EmailID
+[03/11/2019 10:25:36:741]Value =  
+[03/11/2019 10:25:36:742]Available = 2
+[03/11/2019 10:25:36:744]LogoutAdmin
+[03/11/2019 10:25:36:760]Logout OK
+[03/11/2019 10:25:36:762]CadminCentralServices Creation
+[03/11/2019 10:25:36:763]Building CadminCSMapper
+[03/11/2019 10:25:36:764]    (adminCS, Version=1.11.24.0, Culture=neutral, PublicKeyToken=ddb7c2ab70c6a687)
+[03/11/2019 10:25:36:765]    (file:///C:/WINDOWS/assembly/GAC_MSIL/adminCS/1.11.24.0__ddb7c2ab70c6a687/adminCS.dll)
+[03/11/2019 10:25:36:766]    (Framework .NET v4.0.30319.42000)
+[03/11/2019 10:25:36:768]Reading config file
+[03/11/2019 10:25:36:770]Failed to read config file. Default settings will be used
+[03/11/2019 10:25:36:771]-->Use Default Proxy : False
+[03/11/2019 10:25:36:772]-->ByPass Local Addr : False
+[03/11/2019 10:25:36:774]-->Customized Proxy  : False
+[03/11/2019 10:25:36:775]-->Proxy Address     : 127.0.0.1
+[03/11/2019 10:25:36:776]-->Proxy Port        : 3128
+[03/11/2019 10:25:36:777]SetConnectionParameters 10.159.97.100 443 0
+[03/11/2019 10:25:36:778]LoginAdmin installer
+[03/11/2019 10:25:36:780]Trying primary URL
+[03/11/2019 10:25:36:781]Using URL: https://10.159.97.100:443/services/xmlsrv/services/
+[03/11/2019 10:25:36:783]FakeGetOXOTime
+[03/11/2019 10:25:36:930]Login OK
+[03/11/2019 10:25:36:931]Session ID : #7IRttxqUAJjhCyl4
+[03/11/2019 10:25:36:933]GetAdminProperties
+[03/11/2019 10:25:37:340]GetAdminProperties OK
+[03/11/2019 10:25:37:341]-------------- Recieved Global Data ----------------
+[03/11/2019 10:25:37:343]vmailNotification_inService : 0
+[03/11/2019 10:25:37:344]vmailNotification_server : localhost
+[03/11/2019 10:25:37:346]extension1 : 0
+[03/11/2019 10:25:37:348]extension2 : 
+[03/11/2019 10:25:37:349]extension3 : 
+[03/11/2019 10:25:37:350]defaultOnlineUpdate_auto : 0
+[03/11/2019 10:25:37:351]defaultOnlineUpdate_byUser : 0
+[03/11/2019 10:25:37:353]defaultOnlineUpdate_check : 0
+[03/11/2019 10:25:37:354]defaultOnlineUpdate_enabled : 0
+[03/11/2019 10:25:37:356]onlineUpdate_lan : 0
+[03/11/2019 10:25:37:357]onlineUpdate_oneTouchUpdate : 0
+[03/11/2019 10:25:37:359]onlineUpdate_path : 
+[03/11/2019 10:25:37:361]onlineUpdate_url : https://online-update-software.alcatel.com/UpdateServices.asmx
+[03/11/2019 10:25:37:362]oxo_cpuid : f106fffe
+[03/11/2019 10:25:37:364]oxo_customerIDAddress : f|f|f|dz|||
+[03/11/2019 10:25:37:366]oxo_customerFax : 
+[03/11/2019 10:25:37:367]oxo_customerIDName : f
+[03/11/2019 10:25:37:369]oxo_customerIDPerson : 
+[03/11/2019 10:25:37:371]oxo_customerPhone : 1
+[03/11/2019 10:25:37:373]oxo_release : 3EH30556CPAA ONEDZ030/045.001
+[03/11/2019 10:25:37:374]pimphony_lastVersion : 
+[03/11/2019 10:25:37:376]defaultPimphony_profil : 0
+[03/11/2019 10:25:37:378]defaultPimphony_topology : 0
+[03/11/2019 10:25:37:380]defaultVmailNotificationOptions : 0
+[03/11/2019 10:25:37:381]voIpBoardAddress : 010.159.097.100
+[03/11/2019 10:25:37:383]defaultCallNotificationOptions : 0
+[03/11/2019 10:25:37:384]----------------------------------------------------
+[03/11/2019 10:25:37:389]ConvertOxoGlobal_GlobalData 
+[03/11/2019 10:25:37:398]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:399]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:401]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:402]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:404]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:405]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:407]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:409]setStringPropertyByName OK , value = https://online-update-software.alcatel.com/UpdateServices.asmx
+[03/11/2019 10:25:37:410]setStringPropertyByName OK , value = f106fffe
+[03/11/2019 10:25:37:412]setStringPropertyByName OK , value = f|f|f|dz|||
+[03/11/2019 10:25:37:413]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:415]setStringPropertyByName OK , value = f
+[03/11/2019 10:25:37:416]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:418]setStringPropertyByName OK , value = 1
+[03/11/2019 10:25:37:419]setStringPropertyByName OK , value = 3EH30556CPAA ONEDZ030/045.001
+[03/11/2019 10:25:37:421]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:422]setStringPropertyByName OK , value = localhost
+[03/11/2019 10:25:37:424]setStringPropertyByName OK , value = 0
+[03/11/2019 10:25:37:425]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:427]setStringPropertyByName OK , value =  
+[03/11/2019 10:25:37:428]setStringPropertyByName OK , value = 010.159.097.100
+[03/11/2019 10:25:37:430]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:432]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:434]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:436]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:438]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:440]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:442]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:443]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:445]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:446]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:451]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:453]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:454]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:455]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:457]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:458]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:460]setIntPropertyByName OK , value = 0
+[03/11/2019 10:25:37:462]setDateTimePropertyByName OK , value = 01/01/1970 00:00:00
+[03/11/2019 10:25:37:464]ReadAdminPropertyString OnlineUpdate_url
+[03/11/2019 10:25:37:466]getPropertyAvailabilityByName OnlineUpdate_url
+[03/11/2019 10:25:37:468]Value = https://online-update-software.alcatel.com/UpdateServices.asmx
+[03/11/2019 10:25:37:469]Available = 2
+[03/11/2019 10:25:37:472]ReadAdminPropertyInt OnlineUpdate_enabled
+[03/11/2019 10:25:37:473]getPropertyAvailabilityByName OnlineUpdate_enabled
+[03/11/2019 10:25:37:475]Value = 0
+[03/11/2019 10:25:37:477]Available = 2
+[03/11/2019 10:25:37:478]ReadAdminPropertyInt OnlineUpdate_byUser
+[03/11/2019 10:25:37:480]getPropertyAvailabilityByName OnlineUpdate_byUser
+[03/11/2019 10:25:37:481]The property is not communicated
+[03/11/2019 10:25:37:483]ReadAdminPropertyInt OnlineUpdate_check
+[03/11/2019 10:25:37:484]getPropertyAvailabilityByName OnlineUpdate_check
+[03/11/2019 10:25:37:485]Value = 0
+[03/11/2019 10:25:37:486]Available = 2
+[03/11/2019 10:25:37:487]ReadAdminPropertyInt OnlineUpdate_OneTouchUpdate
+[03/11/2019 10:25:37:489]getPropertyAvailabilityByName OnlineUpdate_OneTouchUpdate
+[03/11/2019 10:25:37:490]Value = 0
+[03/11/2019 10:25:37:491]Available = 2
+[03/11/2019 10:25:37:493]ReadAdminPropertyString OnlineUpdate_path
+[03/11/2019 10:25:37:494]getPropertyAvailabilityByName OnlineUpdate_path
+[03/11/2019 10:25:37:496]The property is not communicated
+[03/11/2019 10:25:37:498]ReadAdminPropertyInt OnlineUpdate_lan
+[03/11/2019 10:25:37:499]getPropertyAvailabilityByName OnlineUpdate_lan
+[03/11/2019 10:25:37:501]The property is not communicated
+[03/11/2019 10:25:37:502]ReadAdminPropertyString PIMphony_lastVersion
+[03/11/2019 10:25:37:503]getPropertyAvailabilityByName PIMphony_lastVersion
+[03/11/2019 10:25:37:504]The property is not communicated
+[03/11/2019 10:25:37:505]ReadAdminPropertyInt PIMphony_profil
+[03/11/2019 10:25:37:507]getPropertyAvailabilityByName PIMphony_profil
+[03/11/2019 10:25:37:509]The property is not communicated
+[03/11/2019 10:25:37:510]ReadAdminPropertyInt PIMphony_topology
+[03/11/2019 10:25:37:511]getPropertyAvailabilityByName PIMphony_topology
+[03/11/2019 10:25:37:513]The property is not communicated
+[03/11/2019 10:25:37:514]ReadAdminPropertyInt EmailNotification_activate
+[03/11/2019 10:25:37:515]getPropertyAvailabilityByName EmailNotification_activate
+[03/11/2019 10:25:37:517]Value = 0
+[03/11/2019 10:25:37:518]Available = 2
+[03/11/2019 10:25:37:519]ReadAdminPropertyString EmailNotification_server
+[03/11/2019 10:25:37:521]getPropertyAvailabilityByName EmailNotification_server
+[03/11/2019 10:25:37:522]Value = localhost
+[03/11/2019 10:25:37:523]Available = 2
+[03/11/2019 10:25:37:524]ReadAdminPropertyInt EmailNotification_InService
+[03/11/2019 10:25:37:526]getPropertyAvailabilityByName EmailNotification_InService
+[03/11/2019 10:25:37:527]Value = 0
+[03/11/2019 10:25:37:529]Available = 1
+[03/11/2019 10:25:47:695]LogoutAdmin
+[03/11/2019 10:25:47:715]Logout OK
