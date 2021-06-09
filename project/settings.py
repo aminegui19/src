@@ -25,7 +25,7 @@ SECRET_KEY = '50fju-et_^p)vf+3hp*5(j(r)j3*znnz!z!%nz9!bh0vpbl!dp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['127.0.0.1','aminegui.herokuapp.com']
 
 
 # Application definition
