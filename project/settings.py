@@ -88,13 +88,24 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'job',
-        'USER': 'postgres',
-        'PASSWORD': 'Amine@1990',
-        'HOST': 'localhost',
+        'NAME': 'dcg894h82nbv1d',
+        'USER': 'qfmasnstewsset',
+        'PASSWORD': '023207c5ab0588c097210e3d4597b88888de12f1d9b623d4c2d3ca744e711d8a',
+        'HOST': 'ec2-54-229-68-88.eu-west-1.compute.amazonaws.com',
         'PORT': '5432',
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'job',
+#         'USER': 'postgres',
+#         'PASSWORD': 'Amine@1990',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
+
 
 #MongoDB connection configuration
 # DATABASES = {
