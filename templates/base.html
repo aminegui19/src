@@ -48,15 +48,18 @@
                     <nav>
                       <ul id="navigation">
                         <li><a href="{% url 'job:job_list'%}">Accueil</a></li>
-                        <li><a href="{% url 'job:job_list'%}">Liste des postes</a></li>
-                        <li><a href="{% url 'contact:contact'%}">Contact</a></li>
+                        <li>
+                          <a href="{% url 'job:job_list'%}">Liste des postes</a>
+                        </li>
+                        <li>
+                          <a href="{% url 'contact:contact'%}">Contact</a>
+                        </li>
                       </ul>
                     </nav>
                   </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                   <div class="Appointment">
-                    
                     {% if request.user.is_authenticated %}
                     <div class="phone_num d-none d-xl-block">
                       <a href="{%url 'accounts:profile' %}">Profile</a>
@@ -69,12 +72,13 @@
                     <div class="phone_num d-none d-xl-block">
                       <a href="{%url 'login' %}">Log in</a>
                     </div>
-                   
+
                     {% endif %}
-                      
 
                     <div class="d-none d-lg-block">
-                      <a class="boxed-btn3" href="{% url 'jobs:add_job'%}">Ajouter Poste</a>
+                      <a class="boxed-btn3" href="{% url 'jobs:add_job'%}"
+                        >Ajouter Poste</a
+                      >
                     </div>
                   </div>
                 </div>
@@ -105,9 +109,9 @@
                   </a>
                 </div>
                 <p>
-                  finloan@support.com <br />
-                  +10 873 672 6782 <br />
-                  600/D, Green road, NewYork
+                  aminegui@support.com <br />
+                  0550101852 <br />
+                  Sétif el eulma
                 </p>
                 <div class="socail_links">
                   <ul>
@@ -200,9 +204,9 @@
                 <script>
                   document.write(new Date().getFullYear());
                 </script>
-                All rights reserved | This template is made with
+
                 <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <a href="" target="_blank">Amine GUI</a>
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               </p>
             </div>
